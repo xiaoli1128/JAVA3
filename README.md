@@ -22,3 +22,20 @@ Java课程作业项目仓库
 2.在测试主类中，实例化多个类实体，模拟学生选课操作、打印课程信息（信息包括：编号、课程名称、上课地点、时间、授课教师 等）；模拟学生退课操作，再打印课程信息。
 
 核心代码
+package first;
+
+public class Course {
+	String id;
+	String name;
+	public int course;
+	public Course(String name){
+		this.id=id;
+		this.name=name;
+	}
+	public void ChangeId(int a){
+		this.id=a;
+	}
+	public Course(){
+		
+	}
+}
